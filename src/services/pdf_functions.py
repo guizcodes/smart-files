@@ -40,8 +40,9 @@ def save_txt(content):
 def extract_pdf_to_txt():
     option = input(
         """
+      
       [1] Conversão única
-      [2] Conversão multipla
+      [2] Conversão múltipla
       Opção: """
     )
     if option == "1":
@@ -81,9 +82,9 @@ def extract_pdf_to_txt():
                             content += text + "\n"
                     save_txt(content)
                 if counter >= 20:
-                    print("Talvez possa demorar um pouco para fazer o resumo. Aguarde!")
+                    print("Talvez possa demorar um pouco para fazer o resumo. Aguarde!\n")
             except Exception:
-                print("Falha ao extrair os textos.")
+                print(f"Falha ao extrair texto do arquivo {filename}")
         else:
             print("Opção Inválida.")
     else:
@@ -151,6 +152,7 @@ def manage_summary(file):
                 counter += 1
             option = input(
                 """
+            
             [1] Visualizar o resumo agora
             [2] Exportar o resumo para um arquivo txt
             [3] Voltar sem visualizar
