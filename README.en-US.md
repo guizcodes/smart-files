@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> </p>
   
-<img src="banner.png" width="100%" height="300px" />
+<img src="assets/banner.png" width="100%" height="300px" />
 
 > This project focuses on managing PDF and TXT files to simplify conversions, reading, processing, and summary with AI integration.
 
