@@ -5,9 +5,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> </p>
   
-<img src="banner.png" width="100%" height="300px" />
+<img src="assets/banner.png" width="100%" height="300px" />
 
 > Este projeto tem como foco o gerenciamento de arquivos PDF e TXT para simplificar conversões, leitura, processamento, e resumo com integração de IA.
+
+## 📷 Prévia
+
+<img src="assets/preview.png" width="100%" height="auto"/>
 
 ## ✨ Funcionalidades
 

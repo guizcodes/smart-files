@@ -9,6 +9,10 @@
 
 > This project focuses on managing PDF and TXT files to simplify conversions, reading, processing, and summary with AI integration.
 
+## 📷 Preview
+
+<img src="assets/preview.png" width="100%" height="auto"/>
+
 ## ✨ Features
 
 - 🤖 AI-powered PDF summarization.
