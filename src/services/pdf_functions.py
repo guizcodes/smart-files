@@ -39,7 +39,7 @@ def save_txt(content):
 
 def extract_pdf_to_txt():
     option = input(
-        """
+        """\n
         [1] Conversão única
         [2] Conversão múltipla
         -> Opção: """
@@ -150,11 +150,11 @@ def manage_summary(file):
                 print(f"Página {counter} carregada.", end="\r")
                 counter += 1
             option = input(
-                """
-                [1] Visualizar o resumo agora
-                [2] Exportar o resumo para um arquivo txt
-                [3] Voltar sem visualizar
-                -> Option: """
+                """\n
+        [1] Visualizar o resumo agora
+        [2] Exportar o resumo para um arquivo txt
+        [3] Voltar sem visualizar
+        -> Option: """
             )
             if option.isnumeric():
                 match option:
