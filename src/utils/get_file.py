@@ -6,6 +6,6 @@ def get_file():
     if ".pdf" in file:
         file = file.replace(".pdf", "")
         return f"./documents/pdf/{file}"
-        
+
     elif ".txt" in file:
-      return f"./documents/txt/{file}"
+        return f"./documents/txt/{file}"

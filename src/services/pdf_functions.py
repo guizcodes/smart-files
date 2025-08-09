@@ -81,7 +81,9 @@ def extract_pdf_to_txt():
                             content += text + "\n"
                     save_txt(content)
                 if counter >= 20:
-                    print("R: Talvez possa demorar um pouco para fazer o resumo. Aguarde!\n")
+                    print(
+                        "R: Talvez possa demorar um pouco para fazer o resumo. Aguarde!\n"
+                    )
             except Exception:
                 print(f"R: Falha ao extrair texto do arquivo {filename}")
         else:
@@ -130,7 +132,9 @@ def summarize_chunks(content):
         if final_summary:
             return final_summary
         else:
-            print("R: Erro ao resumir a parte final. O resumo está parcialmente completo.")
+            print(
+                "R: Erro ao resumir a parte final. O resumo está parcialmente completo."
+            )
             return full_summary
     except Exception as e:
         print("R: Erro ao resumir seu arquivo.")

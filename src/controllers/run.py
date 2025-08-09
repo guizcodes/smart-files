@@ -29,34 +29,31 @@ def run():
                     if selected_function in functions:
                         functions[selected_function]()
                     else:
-                      clear()
-                      print("R: Opção Inválida.")
+                        clear()
+                        print("R: Opção Inválida.")
                 except Exception as e:
                     print(f"R: Erro. [{e}]")
-                    
+
             case "2":
-              try:
-                clear()
-                show_txt_files()
-                txt_options()
-                txt_user_option = input("-> Opção: ")
-                selected_function = it_is_number(txt_user_option)
-                
-                functions = {
-                  "1": lambda: search_word(get_file()),
-                  "2": clear
-                }
-                
-                if selected_function in functions:
-                
-                  functions[selected_function]()
-                  
-                else:
-                  clear()
-                  print("R: Opção Inválida")
-                  
-              except Exception as e:
-                print(f"R: Erro: {e}")
+                try:
+                    clear()
+                    show_txt_files()
+                    txt_options()
+                    txt_user_option = input("-> Opção: ")
+                    selected_function = it_is_number(txt_user_option)
+
+                    functions = {"1": lambda: search_word(get_file()), "2": clear}
+
+                    if selected_function in functions:
+
+                        functions[selected_function]()
+
+                    else:
+                        clear()
+                        print("R: Opção Inválida")
+
+                except Exception as e:
+                    print(f"R: Erro: {e}")
 
             case "3":
                 clear()
