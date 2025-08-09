@@ -19,13 +19,18 @@
 - 📖 Convert PDF files to plain text with option of conversion single or multiple!
 - 📚 Merge multiple PDF files into one.
 - 📄 Extract raw text from PDF documents.
+- 🧾 Search words in txt files.
 
 ## ⚙️ Requirements
 
 - requests
 - PyPDF2
 
-## 🔐 API Token (Required)
+## ❓ How to use
+
+You need to move your files to the designated folder src/documents/(pdf or txt) before using the application.
+
+## 🔐 API Token
 
 To use the summarization feature, you need a Hugging Face API token.
 
@@ -47,10 +52,6 @@ To use the summarization feature, you need a Hugging Face API token.
 ``` bash
     python3 main.py 
 ```
-
-## ❓ How to use
-
-You need to move your PDF files to the designated folder src/documents/pdf before using the application.
 
 ## 📝 License
 

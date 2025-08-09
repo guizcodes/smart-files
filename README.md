@@ -7,7 +7,7 @@
   
 <img src="assets/banner.png" width="100%" height="300px" />
 
-> Este projeto tem como foco o gerenciamento de arquivos PDF e TXT para simplificar conversões, leitura, processamento, e resumo com integração de IA.
+> Este projeto tem como foco o gerenciamento de arquivos PDF e TXT para simplificar conversões, leitura, processamento, resumo com integração de IA e etc...
 
 ## 📷 Prévia
 
@@ -19,13 +19,19 @@
 - 📖 Conversão de arquivos PDF para TXT com opções de conversão única ou conversão de multiplos arquivos!
 - 📚 Mesclagem de múltiplos arquivos PDF em um só.
 - 📄 Extração de texto bruto de documentos PDF.
+- 🧾 Procurar palavras especificas em arquivos TXT.
 
 ## ⚙️ Requisitos
 
 - requests
 - PyPDF2
 
-## 🔐 Token de API (Obrigatório)
+
+## ❓ Como Usar
+
+Você deve mover seus arquivos para a pasta designada em src/documents/(pdf ou txt) antes de usar a aplicação.
+
+## 🔐 Token de API
 
 Para usar a função de resumo, você precisa de um token de API do Hugging Face.
 
@@ -47,10 +53,6 @@ Para usar a função de resumo, você precisa de um token de API do Hugging Face
 ``` bash
     python3 main.py 
 ```
-
-## ❓ Como Usar
-
-Você deve mover seus arquivos PDF para a pasta designada em src/documents/pdf antes de usar a aplicação.
 
 ## 📝 Licença
 
